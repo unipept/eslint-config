@@ -1,0 +1,33 @@
+{
+    "name": "@unipept/eslint-config",
+    "version": "1.0.0",
+    "description": "The ESLint configuration that's been used and shared by all Unipept projects.",
+    "main": "index.js",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/unipept/eslint-config.git"
+    },
+    "author": "Pieter Verschaffelt",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/unipept/eslint-config/issues"
+    },
+    "homepage": "https://github.com/unipept/eslint-config#readme",
+    "dependencies": {
+        "@typescript-eslint/parser": ">= 5",
+        "@vue/cli-plugin-eslint": ">= 5"
+    },
+    "peerDependencies": {
+        "eslint": ">= 8",
+        "eslint-plugin-vue": ">= 9",
+        "@vue/eslint-config-typescript": ">= 11",
+        "@typescript-eslint/eslint-plugin": ">= 5"
+    }
+}
